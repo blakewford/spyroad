@@ -1,0 +1,11 @@
+build.xml
+libs/*
+bin/*
+gen/*
+assets/*
+AndroidManifest.xml
+*.properties
+*.txt
+*.keystore
+res/*
+src/org/starlo/spyroad/MapKey.java

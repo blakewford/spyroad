@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">spyroad</string>
+    <string name="start_log">Start Logging</string>
+    <string name="stop_log">Stop (Long Press)</string>
+    <string name="replay">Replay</string>
+</resources>

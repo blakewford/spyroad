@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fdfdfd"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<WebView
+    android:id="@+id/local"
+    android:layout_weight="4.5"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+<WebView
+    android:visibility="gone"
+    android:id="@+id/web"
+    android:layout_weight="3.5"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+<TextView
+    android:id="@+id/placeholder"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:textColor="#fdfdfd"
+    android:text="No Replay Available"
+    android:gravity="center"
+    android:background="#828282"
+    android:layout_weight="3.5"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp">
+<TextView
+    android:id="@+id/latitude"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<TextView
+    android:id="@+id/longitude"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+</LinearLayout>
+<LinearLayout
+    android:background="#828282"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp">
+<Button
+    android:layout_marginTop="1dp"
+    android:background="#fdfdfd"
+    android:id="@+id/stopstart"
+    android:layout_weight="4"
+    android:text="@string/start_log"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<Button
+    android:background="#fdfdfd"
+    android:id="@+id/replay"
+    android:visibility="gone"
+    android:drawableRight="@drawable/toolbar_replay"
+    android:text="@string/replay"
+    android:layout_marginTop="1dp"
+    android:layout_marginRight="1dp"
+    android:paddingRight="10dp"
+    android:layout_weight="2"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<ImageButton
+    android:background="#fdfdfd"
+    android:visibility="gone"
+    android:src="@drawable/toolbar_refresh"
+    android:layout_marginTop="1dp"
+    android:layout_marginRight="1dp"
+    android:id="@+id/refresh"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<ImageButton
+    android:background="#fdfdfd"
+    android:visibility="gone"
+    android:layout_marginTop="1dp"
+    android:src="@drawable/toolbar_share"
+    android:id="@+id/share"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+</LinearLayout>
+</LinearLayout>
+
